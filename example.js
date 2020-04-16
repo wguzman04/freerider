@@ -13,7 +13,7 @@ let notifier = {
 
 // When called in a static context, data is fetched and searched directly
 Freerider.Helper.search(routes, notifier);	
-
+// prueba
 // When using an instance, fetched data can be saved and reused
 let helper = new Freerider.Helper();
 helper.getTrips(function(trips){
